@@ -1,3 +1,3 @@
 # TryPokemonGoShiny
 
-try it on https://kennethkinlum.github.io/TryPokemonGoShiny
+try it on https://kennethkinlum.github.io/TryPokemonShiny

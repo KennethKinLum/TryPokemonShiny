@@ -1,0 +1,23 @@
+0000000000000000000000000000000000000000 edd1923916481f1b902e862329931cc56d6bf00b Kin <winterheat@gmail.com> 1521563472 -0700	commit (initial): first commit
+edd1923916481f1b902e862329931cc56d6bf00b d05e5478f43d5219a4e451f08e3748f902be18f1 Kin <winterheat@gmail.com> 1521563742 -0700	commit: make into one file
+d05e5478f43d5219a4e451f08e3748f902be18f1 1a1e3d26f5aa2b1c01e58eb228b0296a42895839 Kin <winterheat@gmail.com> 1521564379 -0700	commit: adjust style
+1a1e3d26f5aa2b1c01e58eb228b0296a42895839 2c3246d1d1b2ad7cfec208bfb1207b8d76b9bdd7 Kin <winterheat@gmail.com> 1521564613 -0700	commit: preload images
+2c3246d1d1b2ad7cfec208bfb1207b8d76b9bdd7 3a6483b71f569c4f2e5423232917ac7e6043699f Kin <winterheat@gmail.com> 1521565403 -0700	commit: mobile browser
+3a6483b71f569c4f2e5423232917ac7e6043699f 9959ad4b8930d7886988122c30f1c1d61ad578a1 Kin <winterheat@gmail.com> 1521565457 -0700	commit: mobile browser
+9959ad4b8930d7886988122c30f1c1d61ad578a1 bcafdd6bafb1559df796403d97e7c4daca2d375b Kin <winterheat@gmail.com> 1521565769 -0700	commit: update README
+bcafdd6bafb1559df796403d97e7c4daca2d375b 24522abe5c670f2db19a161ff96394c38ffcbdfd Kin <winterheat@gmail.com> 1521566052 -0700	commit: make images local
+24522abe5c670f2db19a161ff96394c38ffcbdfd 77fc8185394b16b16940c2746def52c65a626898 Kin <winterheat@gmail.com> 1521578361 -0700	pull: Fast-forward
+77fc8185394b16b16940c2746def52c65a626898 e180ebd3ce4479b6e2f56cef73f70f7dd6e1429a Kin <winterheat@gmail.com> 1521578875 -0700	commit: adjust width
+e180ebd3ce4479b6e2f56cef73f70f7dd6e1429a 95a8b15277f37a9ffb4b7bc3d64b11bd2f152fbd Kin <winterheat@gmail.com> 1521579327 -0700	commit: adjust width
+95a8b15277f37a9ffb4b7bc3d64b11bd2f152fbd a620942accaa16812302c5a7f67d7f1e686801ef Kin <winterheat@gmail.com> 1521579787 -0700	commit: using higher resolution images
+a620942accaa16812302c5a7f67d7f1e686801ef ae505b2db1b5eae5fbad823a41309c8833a59255 Kin <winterheat@gmail.com> 1521580096 -0700	commit: use no zoom
+ae505b2db1b5eae5fbad823a41309c8833a59255 f400f3c15193ffb0fb4bbf0ad7653578c61bca44 Kin <winterheat@gmail.com> 1521583840 -0700	commit: transition image size
+f400f3c15193ffb0fb4bbf0ad7653578c61bca44 d66fb0b8d5d5499f0cb66abb1fad2c188aed5cdb Kin <winterheat@gmail.com> 1521584414 -0700	commit: transition after adding image
+d66fb0b8d5d5499f0cb66abb1fad2c188aed5cdb f8407c4f616da74bf519847cdd64720df316f811 Kin <winterheat@gmail.com> 1521591751 -0700	commit: refactor code
+f8407c4f616da74bf519847cdd64720df316f811 6b60c94caac40cc9d481baff8ecd768a36005815 Kin <winterheat@gmail.com> 1521603389 -0700	commit: support older mobile devices
+6b60c94caac40cc9d481baff8ecd768a36005815 598dc57412c28bdeaad04895482b5dea4f3b05ee Kin <winterheat@gmail.com> 1521603727 -0700	commit: rename file
+598dc57412c28bdeaad04895482b5dea4f3b05ee af4a25ca8c4866025004f81800792fcf6d58162b Kin <winterheat@gmail.com> 1545943685 +0800	commit: add images
+af4a25ca8c4866025004f81800792fcf6d58162b 4049a0ab0dea0cd5ba3bb3b4a95c7978c58e2078 Kin <winterheat@gmail.com> 1545943816 +0800	commit: crop image
+4049a0ab0dea0cd5ba3bb3b4a95c7978c58e2078 e99be0d7d8cd18cd30b05f44309dab00edf65e38 Kin <winterheat@gmail.com> 1545944487 +0800	commit: different image
+e99be0d7d8cd18cd30b05f44309dab00edf65e38 ee1d8c2806a92fff68e0f16104ea446ae1b0ac70 Kin <winterheat@gmail.com> 1545945156 +0800	commit: new image
+ee1d8c2806a92fff68e0f16104ea446ae1b0ac70 5de393638377740694bb9ef1c0b954c88defe16a Kin <winterheat@gmail.com> 1546081570 +0800	commit: using docs folder

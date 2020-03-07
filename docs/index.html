@@ -3,9 +3,6 @@
 
 <head>
   <meta name="viewport" content="width=380, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-</head>
-
-<body>
 
   <style>
     body {
@@ -44,6 +41,10 @@
     }
   </style>
 
+</head>
+
+<body>
+
   <section id="control-panel">
     <button id="try">
       試試手氣
@@ -81,27 +82,23 @@
         $(htmlImgShiny).hide().prependTo("#results")
       )
 
-      function clickAndDoubleClickHandler() {
-        var result;
-
-        count++;
-
-        if (Math.random() < 1 / 450) {
-          result = pickOne(htmlImgShinyMultiple);
-          countShiny++;
-        } else {
-          result = htmlImg;
-        }
-        $(result).hide().prependTo("#results").fadeIn("slow").width("118px");
-
-        $("#count-total").html("試了多少次：" + count);
-        $("#count-shiny").html("多少隻色違：" + countShiny);
-      }
-
       $("#try")
-        .click(clickAndDoubleClickHandler)
-        .dblclick(function (ev) {
-          console.log("DBL CLICK");
+        .click(function clickAndDoubleClickHandler(ev) {
+          var result;
+
+          count++;
+
+          if (Math.random() < 1 / 450) {
+            result = pickOne(htmlImgShinyMultiple);
+            countShiny++;
+          } else {
+            result = htmlImg;
+          }
+          $(result).hide().prependTo("#results").fadeIn("slow").width("118px");
+
+          $("#count-total").html("試了多少次：" + count);
+          $("#count-shiny").html("多少隻色違：" + countShiny);
+
           ev.preventDefault();
           ev.stopPropagation();
         });

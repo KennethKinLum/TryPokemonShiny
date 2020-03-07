@@ -43,7 +43,7 @@
 
 </head>
 
-<body>ha9
+<body>ha11
 
 
   <section id="control-panel">
@@ -83,7 +83,7 @@
         $(htmlImgShiny).hide().prependTo("#results")
       )
 
-      function clickAndDoubleClickHandler() {
+      function clickAndDoubleClickHandler(ev) {
         var result;
 
         count++;
@@ -98,16 +98,18 @@
 
         $("#count-total").html("試了多少次：" + count);
         $("#count-shiny").html("多少隻色違：" + countShiny);
+
+        ev.stopPropagation();
       }
 
       $("#try")
         .click(clickAndDoubleClickHandler);
       
-      $('body').on('dblclick touchend', function (ev) {
-          console.log("EXTRA");
-          ev.preventDefault();
-          ev.stopPropagation();
-        });
+      // $('body').on('dblclick touchend', function (ev) {
+      //     console.log("EXTRA");
+      //     ev.preventDefault();
+      //     ev.stopPropagation();
+      //   });
 
     }());
 

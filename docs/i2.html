@@ -43,7 +43,7 @@
 
 </head>
 
-<body>ha7
+<body>ha8
 
 
   <section id="control-panel">
@@ -102,7 +102,7 @@
 
       $("#try")
         .click(clickAndDoubleClickHandler)
-        .on('dblclick tap', function (ev) {
+        .on('dblclick touchend', function (ev) {
           console.log("EXTRA");
           ev.preventDefault();
           ev.stopPropagation();

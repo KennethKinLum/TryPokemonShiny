@@ -103,6 +103,7 @@
         .dblclick(function (ev) {
           console.log("DBL CLICK");
           ev.preventDefault();
+          ev.stopPropagation();
         });
 
     }());

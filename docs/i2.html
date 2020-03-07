@@ -43,7 +43,7 @@
 
 </head>
 
-<body>ha2
+<body>ha3
 
 
   <section id="control-panel">
@@ -102,8 +102,8 @@
 
       $("#try")
         .click(clickAndDoubleClickHandler)
-        .dblclick(function (ev) {
-          console.log("DBL CLICK");
+        .on('dblclick touchstart touchend touchmove', function (ev) {
+          console.log("EXTRA");
           ev.preventDefault();
           ev.stopPropagation();
         });

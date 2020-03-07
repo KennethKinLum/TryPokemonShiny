@@ -43,7 +43,7 @@
 
 </head>
 
-<body>ha11
+<body>ha12
 
 
   <section id="control-panel">
@@ -99,6 +99,7 @@
         $("#count-total").html("試了多少次：" + count);
         $("#count-shiny").html("多少隻色違：" + countShiny);
 
+        ev.preventDefault();
         ev.stopPropagation();
       }
 

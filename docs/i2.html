@@ -106,11 +106,11 @@
       $("#try")
         .click(clickAndDoubleClickHandler);
       
-      // $('body').on('dblclick touchend', function (ev) {
-      //     console.log("EXTRA");
-      //     ev.preventDefault();
-      //     ev.stopPropagation();
-      //   });
+      $('#try').on('dblclick focus', function (ev) {
+          console.log("EXTRA");
+          ev.preventDefault();
+          ev.stopPropagation();
+        });
 
     }());
 

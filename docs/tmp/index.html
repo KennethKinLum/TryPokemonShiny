@@ -41,11 +41,11 @@
     (function() {
       var count = 0,
           countShiny = 0,
-          htmlImgLugia = '<img src="delibird.png">',
-          htmlImgShinyLugia = '<img src="shiny-delibird.png">';
+          htmlImg = '<img src="delibird.png">',
+          htmlImgShiny = '<img src="shiny-delibird.png">';
 
-      $(htmlImgLugia).hide().prependTo("#results");
-      $(htmlImgShinyLugia).hide().prependTo("#results");
+      $(htmlImg).hide().prependTo("#results");
+      $(htmlImgShiny).hide().prependTo("#results");
 
       $("#try").click(function() {
         var result;
@@ -53,10 +53,10 @@
         count++;
 
         if (Math.random() < 1/450) {
-          result = htmlImgShinyLugia;
+          result = htmlImgShiny;
           countShiny++;
         } else {
-          result = htmlImgLugia;
+          result = htmlImg;
         }
         $(result).hide().prependTo("#results").fadeIn("slow").width("118px");
 
